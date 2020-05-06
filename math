@@ -1,0 +1,16 @@
+package firstapp;
+import java.util.Scanner;
+
+public class first {
+
+static Scanner reader = new Scanner(System.in);
+public static void main (String[]args) {
+	int num1=5;
+	int num2=1;
+	int num3=2;
+	int result=num1+num2*num3;
+	System.out.println(result);
+	
+}
+
+}
