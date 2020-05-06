@@ -1,0 +1,14 @@
+package firstapp;
+import java.util.Scanner;
+
+public class first {
+
+static Scanner reader = new Scanner(System.in);
+public static void main (String[]args) {
+	double number;
+	String phone="40236682";
+	number=Double.parseDouble( phone);
+	System.out.println(number);
+}
+
+}
