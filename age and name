@@ -1,0 +1,19 @@
+package firstapp;
+import java.util.Scanner;
+public class plus {
+	
+	
+	static Scanner reader= new Scanner(System.in);
+	public static void main(String[] args) {
+String name;
+int age;
+System.out.println("name");
+name=reader.nextLine();
+
+System.out.println("age");
+age=reader.nextInt();
+
+System.out.println("Your Name is "+ name + ", Your age is "+age);
+		
+}
+}
