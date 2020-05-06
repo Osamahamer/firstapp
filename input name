@@ -1,0 +1,14 @@
+package firstapp;
+import java.util.Scanner;
+public class plus {
+	
+	
+	static Scanner reader= new Scanner(System.in);
+	public static void main(String[] args) {
+String name;
+System.out.println("Enter Name");
+name=reader.nextLine();
+System.out.println("Welcom "+name);
+
+}
+}
