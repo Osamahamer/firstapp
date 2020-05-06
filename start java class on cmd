@@ -1,0 +1,12 @@
+class on cmd age 
+
+public class plus2 {
+	
+	
+public static void main(String[] args) {
+String name=args[0];
+
+System.out.print("Your name= "+name);
+
+}
+}
