@@ -1,0 +1,12 @@
+package firstapp;
+import java.util.Scanner;
+
+public class first {
+
+static Scanner reader = new Scanner(System.in);
+public static void main (String[]args) {
+##	here we write the code
+	
+}
+
+}
