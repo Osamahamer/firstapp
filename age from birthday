@@ -1,0 +1,15 @@
+package firstapp;
+import java.util.Scanner;
+public class plus {
+	
+	
+	static Scanner reader= new Scanner(System.in);
+	public static void main(String[] args) {
+int year;
+System.out.print("Enter your birthday ");
+year=reader.nextInt();
+int age=2020-year;
+System.out.print("Your age is= "+age);
+
+}
+}
