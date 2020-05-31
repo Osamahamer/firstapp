@@ -1,0 +1,13 @@
+package Class;
+
+public class ObjectClass {
+
+	public static void main(String[] args) {
+	String s1="Osamah Amer ";
+	StringBuilder sb = new StringBuilder(s1);
+	
+	sb.append("Mohammed");
+	System.out.println("builder :"+sb);
+	}
+
+}
