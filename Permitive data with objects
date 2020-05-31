@@ -1,0 +1,23 @@
+package Class;
+
+public class ObjectClass {
+
+	public static void main(String[] args) {
+		String S1="Osamah";
+		String S2="Osamah";
+		String S3=new String("Osamah");
+		System.out.println(S1);
+		if (S1.equals(S3)) {
+			System.out.println("They Match!");
+		}
+		else {
+			System.out.println("They dont Match!");
+		}
+		char[] ch=S1.toCharArray();
+		for (char c : ch) {
+			System.out.println(c);
+		}
+
+	}
+
+}
